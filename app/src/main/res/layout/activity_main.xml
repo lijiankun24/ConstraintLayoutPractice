@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lijiankun24.constraintlayoutpractice.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/tv_relative_positioning"
+        style="@style/TextViewStyle"
+        android:text="@string/relative_positioning"/>
+
+    <View style="@style/LineStyle"/>
+
+    <TextView
+        android:id="@+id/tv_margins"
+        style="@style/TextViewStyle"
+        android:text="@string/margins"/>
+
+    <View style="@style/LineStyle"/>
+
+    <TextView
+        android:id="@+id/tv_centering_positioning"
+        style="@style/TextViewStyle"
+        android:text="@string/centering_positioning"/>
+
+    <View style="@style/LineStyle"/>
+
+    <TextView
+        android:id="@+id/tv_circular_positioning"
+        style="@style/TextViewStyle"
+        android:text="@string/circular_positioning"/>
+
+    <View style="@style/LineStyle"/>
+
+    <TextView
+        android:id="@+id/tv_visibility_behavior"
+        style="@style/TextViewStyle"
+        android:text="@string/visibility_behavior"/>
+
+    <View style="@style/LineStyle"/>
+
+    <TextView
+        android:id="@+id/tv_dimension_constraints"
+        style="@style/TextViewStyle"
+        android:text="@string/dimension_constraints"/>
+
+    <View style="@style/LineStyle"/>
+
+    <TextView
+        android:id="@+id/tv_chains"
+        style="@style/TextViewStyle"
+        android:text="@string/chains"/>
+
+    <View style="@style/LineStyle"/>
+
+    <TextView
+        android:id="@+id/tv_virtual_helpers_objects"
+        style="@style/TextViewStyle"
+        android:text="@string/virtual_helpers_objects"/>
+
+    <View style="@style/LineStyle"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ConstraintLayoutPractice</string>
+
+    <string name="relative_positioning">Relative positioning</string>
+    <string name="margins">Margins</string>
+    <string name="centering_positioning">Centering positioning</string>
+    <string name="circular_positioning">Circular positioning</string>
+    <string name="visibility_behavior">Visibility behavior</string>
+    <string name="dimension_constraints">Dimension constraints</string>
+    <string name="chains">Chains</string>
+    <string name="virtual_helpers_objects">Virtual Helpers objects</string>
+</resources>
