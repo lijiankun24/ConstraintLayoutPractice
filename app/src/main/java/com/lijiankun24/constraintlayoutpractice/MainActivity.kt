@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(Intent(this, CenteringPositionActivity::class.java))
             }
             R.id.tv_circular_positioning -> {
-                startActivity(Intent(this, CircularPositionActivity::class.java))
             }
             R.id.tv_visibility_behavior -> {
                 startActivity(Intent(this, VisibilityBehaviorActivity::class.java))
